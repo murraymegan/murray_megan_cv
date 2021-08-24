@@ -5,8 +5,10 @@
 # loaded and load the cached version in the .Rmd instead of re-fetching it twice
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
+setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Vanderbilt/Fall 2020/Website/cv/murray_megan_cv")
+
 # Knit the HTML version
-rmarkdown::render("cv.rmd",
+rmarkdown::render("cv.Rmd",
                   params = list(pdf_mode = FALSE),
                   output_file = "cv.html")
 

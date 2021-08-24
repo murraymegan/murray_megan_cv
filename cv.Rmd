@@ -83,7 +83,7 @@ Disclaimer {#disclaimer}
 
 <!-- Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  -->
 
-The source code is available [on my GitHub](https://github.com/murraymegan/murray_megan_cv).
+<!-- The source code is available [on my GitHub](https://github.com/murraymegan/murray_megan_cv). -->
 
 Last updated on `r Sys.Date()`.
 
@@ -114,7 +114,7 @@ CV %<>% print_section('research_positions')
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r trouble2}
 CV %<>% print_section('teaching_positions')
 ```
 
@@ -129,7 +129,7 @@ CV %<>% print_section('academic_articles')
 CV %<>% print_section('talks')
 ```
 
-```{r}
+```{r troubles}
 CV %<>% print_section('posters')
 ```
 
